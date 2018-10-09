@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 @Component({
-  selector: 'app-header',
+  selector: 'home-header',
   styleUrls: ['./header.component.scss'],
   templateUrl: './header.component.html',
 })
