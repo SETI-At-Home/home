@@ -7,8 +7,12 @@
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
-      "prefix": "app",
-      "schematics": {},
+      "prefix": "home",
+      "schematics": {
+        "@schematics/angular:component": {
+          "spec": false
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -24,9 +28,7 @@
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "stylePreprocessorOptions": {
-              "includePaths": [
-                "./src/styles"
-              ]
+              "includePaths": ["./src/styles"]
             },
             "scripts": []
           },
