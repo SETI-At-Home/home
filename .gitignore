@@ -40,3 +40,6 @@ Thumbs.db
 
 # Server files
 /server/config/dev.js
+
+# Config files
+/src/app/config/map_api.ts
